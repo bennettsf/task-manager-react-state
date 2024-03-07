@@ -1,3 +1,7 @@
+## TaskManager with React State
+This is a demo of using the useState hook to update certain object attributes within a useState's array of objects.
+
+In order to ensure immutibility when updating the array of task objects and their attributes, the map function (which iterates the tasks looking for a specific task ID) will create a new task object if found, as well as a brand new array of unchanged objects. This prevents the existing objects from being modified directly which can result in unwanted side-effects.
 
 ![](https://i.imgur.com/Qkz2UPi.gif)
 
